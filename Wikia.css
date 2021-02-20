@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:CustomSlider.css&only=styles";
+@import "http://dev.wikia.com/load.php?mode=articles&articles=Highlight/code.css&only=styles";
+
+.WikiaPageHeader {
+	font-family: 'Titillium Web';
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Titillium Web';
+	font-weight: bold;
+}
+
+.wds-community-header, .WikiaPage .page-header__title {
+    font-family: 'Titillium Web';
+}
+
+.infobox {
+border: none;
+}
+
+a[href="/wiki/User:Cooopl"], a[href="/wiki/User:Submadoge"] { 
+	color: #385ef5 !important;
+	font-weight:bold !important;
+	transition: color 0.5s ease-in-out;
+}
+
+a[href="/wiki/User:Cooopl"]:hover, a[href="/wiki/User:Submadoge"]:hover {
+	font-weight:bold;
+	text-shadow:0px 0px 4px #1d2f78;
+}
